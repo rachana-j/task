@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import Card from './Card';
+import Card from './Card.js';
 import './App.css';
 
 const App = () => {
