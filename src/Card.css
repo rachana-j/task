@@ -1,0 +1,35 @@
+/* src/Card.css */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: rgb(51, 35, 223);
+    position: relative;
+    width: 300px;
+    border: 3px solid;
+    border-image-slice: 1;
+    border-width: 4px;
+    border-image-source: linear-gradient(to right, #ff7e5f, #050200);
+  }
+  
+  .card-image {
+    height: 200px;
+    margin: 3%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .card-content {
+    padding: 30px;
+  }
+  
+  .card-content h3 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .card-content p {
+    color: #0b0606;
+  }
+  
